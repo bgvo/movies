@@ -20,27 +20,43 @@ button {
 .carrousel:before{
 	content: '';
 	display: inline-block;
+	position: absolute;
 	width: 1px;
+	height: 100%;
 	vertical-align: middle;
-	height: 100%; 
 }
 
 .carrousel p{
 	color: white;
 }
 
-.cntr {
-	position: absolute;
-	text-align: center;
+.cr-cntr-sctn {
+	display: inline-block;
+	background-color: orange;
+	left: 0;
+	right: 0;
 	margin: 0 auto;
+	vertical-align: middle;
 }
 
-.w500 {
-	width: 50%;
+
+.absolute {
+	position: absolute;
+}
+
+.w360 {
+	width: 36%;
 }
 
 .w400 {
 	width: 40%;
+}
+
+.txt-algn-cntr {
+	text-align: center;
+}
+.mrgn-auto {
+	margin: 0 auto;
 }
 
 .btn-actn-1 {
@@ -178,6 +194,7 @@ button {
 	}
 
 		.cntr {
+			position: absolute;
 			width: 50%;
 		}
 	
