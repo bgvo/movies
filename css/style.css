@@ -357,8 +357,8 @@ button {
 		}
 
 		.nws-asd {
-			border-top: 1px dashed grey;
-			border-bottom: 1px dashed grey;
+			border-top: 1px dashed #DEDEDE;
+			border-bottom: 1px dashed #DEDEDE;
 			margin-top: 15px;
 			padding-left: 26px;
 			}
@@ -372,7 +372,7 @@ button {
 				display: inline-block;
 				width: 48%;
 				padding-right: 50px;
-				border-right: 1px dashed grey;
+				border-right: 1px dashed #DEDEDE;
 			}
 
 			.nws-asd-li2 {
@@ -552,9 +552,11 @@ button {
 		display: inline-block;
 		padding-right: 90px;
 		border-right: 1px solid white;
+		vertical-align: middle;
 	}
 
 	.foot-cent-div {
+		text-align: right;
 		display: inline-block;
 		width: 60%;
 	}
@@ -573,5 +575,13 @@ button {
 	.foot-cent li {
 		display: inline-block;
 		color: white;
-		margin: 0 20px 0 20px;
+		padding: 0 29px;
+	}
+
+	.li-w-brdr {
+		border-right: 1px solid #DEDEDE;
+	}
+
+	.foot-cent-nav a {
+		color: #DEDEDE;
 	}
